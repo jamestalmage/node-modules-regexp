@@ -1,6 +1,6 @@
 {
   "name": "node-modules-regexp",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A regular expression for file paths that contain a `node_modules` folder.",
   "license": "MIT",
   "repository": "jamestalmage/node-modules-regexp",
