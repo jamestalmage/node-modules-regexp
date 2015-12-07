@@ -13,7 +13,12 @@ $ npm install --save node-modules-regexp
 ## Usage
 
 ```js
-const nodeModules = require('node-modules-regexp');
+let nodeModules = require('node-modules-regexp');
+
+// alternate string export
+let nodeModulesString = require('node-modules-regexp/string');
+nodeModules = new RegExp(nodeModulesString);
+
 
 nodeModules.test('/foo/node_modules/bar.js');
 //=> true

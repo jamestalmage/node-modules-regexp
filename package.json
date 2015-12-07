@@ -13,10 +13,12 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "xo && ava"
+    "test": "node ./build-string.js && xo && ava",
+    "preversion": "npm test"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "string.js"
   ],
   "keywords": [
     "node_modules",
